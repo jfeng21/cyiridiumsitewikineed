@@ -25,10 +25,11 @@ public class Hello001 {
 		byte[] array = str.getBytes(charSet);
 		System.out.println("CharSet: " + charSet);
 		System.out.println("length: " + array.length);
-		System.out.println("values: ");
+		System.out.print("values: ");
 		for (byte c : array) {
-			System.out.println(Integer.toHexString(c & 0xFF) );
+			System.out.print(Integer.toHexString(c & 0xFF));
 		}
+		System.out.println();
 	}
 
 }
