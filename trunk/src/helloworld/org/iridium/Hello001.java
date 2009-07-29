@@ -27,7 +27,7 @@ public class Hello001 {
 		System.out.println("length: " + array.length);
 		System.out.println("values: ");
 		for (byte c : array) {
-			System.out.println(Integer.toHexString(c));
+			System.out.println(Integer.toHexString(c & 0xFF) );
 		}
 	}
 
