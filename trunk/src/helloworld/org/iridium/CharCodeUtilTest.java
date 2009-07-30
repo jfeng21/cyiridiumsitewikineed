@@ -10,7 +10,7 @@ public class CharCodeUtilTest {
 
 	@Test
 	public void testDecode() throws UnsupportedEncodingException {
-		CharCodeUtil.decode("ºÃ", "UTF-16");
+		CharCodeUtil.decode("ï¿½ï¿½å¥½", "UTF-16");
 	}
 
 }

@@ -16,12 +16,12 @@ public class CharParserTest {
 	@Test
 	public void testDecode() throws UnsupportedEncodingException {
 		//System.out.println(CharParser.decode("hello", "UTF-8"));
-		assertEquals(CharParser.decode("ºÃ", "UTF-8").toUpperCase(), "E5A5BD");
-//		assertEquals(CharParser.decode("ºÃ", "UTF-16").toUpperCase(), "597D");
-		assertEquals(CharParser.decode("ºÃ", "BIG5").toUpperCase(), "A66E");
-//		assertEquals(CharParser.decode("ºÃ", "GB2312").toUpperCase(), "2635");
-		System.out.println(CharParser.decode("ÎÄ", "GB2312").toUpperCase());
-		System.out.println(CharParser.decode("ÎÄ", "UTF-16").toUpperCase());
+		assertEquals(CharParser.decode("å¥½", "UTF-8").toUpperCase(), "E5A5BD");
+//		assertEquals(CharParser.decode("å¥½", "UTF-16").toUpperCase(), "597D");
+		assertEquals(CharParser.decode("å¥½", "BIG5").toUpperCase(), "A66E");
+//		assertEquals(CharParser.decode("å¥½", "GB2312").toUpperCase(), "2635");
+		System.out.println(CharParser.decode("æ–‡", "GB2312").toUpperCase());
+		System.out.println(CharParser.decode("æ–‡", "UTF-16").toUpperCase());
 	}
 
 }
