@@ -1,11 +1,11 @@
 package org.iridium;
 
 /**
- * "ºÃ"×ÖµÄ±àÂë¿ÉÒÔÔÚ
+ * "å¥½"å­—çš„ç¼–ç å¯ä»¥åœ¨
  * http://bit.ly/xLVAv
- * ²éµ½.
+ * æŸ¥åˆ°.
  * 
- * ÎªºÎ»á³öÏÖ¶àÓàµÄÄÚÈİ?
+ * ä¸ºä½•ä¼šå‡ºç°å¤šä½™çš„å†…å®¹?
  * http://bit.ly/kOmu9
  * 
  */
@@ -14,10 +14,10 @@ import java.io.UnsupportedEncodingException;
 public class Hello001 {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
-		Hello001.decode("ºÃ", "UTF-8");
-		Hello001.decode("ºÃ", "UTF-16");
-		Hello001.decode("ºÃ", "BIG5");
-		Hello001.decode("ºÃ", "GB2312");
+		Hello001.decode("å¥½", "UTF-8");
+		Hello001.decode("å¥½", "UTF-16");
+		Hello001.decode("å¥½", "BIG5");
+		Hello001.decode("å¥½", "GB2312");
 	}
 
 	public static void decode(String str, String charSet)

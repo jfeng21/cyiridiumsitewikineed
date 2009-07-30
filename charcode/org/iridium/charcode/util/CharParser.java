@@ -13,11 +13,11 @@ public class CharParser {
 	/**
 	 * 
 	 * @param str
-	 *            ´ı½âÂë×Ö´®
+	 *            å¾…è§£ç å­—ä¸²
 	 * @param charSet
-	 *            ÖÆ¶¨µÄ±àÂë·½·¨, Ä¿Ç°ÔÚ UTF-8, UTF-16, BIG5, GB2312 ÏÂ²âÊÔ¹ı, µ«GB2312µÄ±àÂëºÍ
-	 *            Unicode ¹ÙÕ¾µÄ±àÂë²»Í¬, UTF-16 ËÆºõÓĞ¶àÓàµÄÄÚÈİ, ´ıÑĞ¾¿.
-	 * @return ×Ö´®°´ÕÕÖÆ¶¨±àÂë½âÂëºóµÄ16½øÖÆÊä³ö
+	 *            åˆ¶å®šçš„ç¼–ç æ–¹æ³•, ç›®å‰åœ¨ UTF-8, UTF-16, BIG5, GB2312 ä¸‹æµ‹è¯•è¿‡, ä½†GB2312çš„ç¼–ç å’Œ
+	 *            Unicode å®˜ç«™çš„ç¼–ç ä¸åŒ, UTF-16 ä¼¼ä¹æœ‰å¤šä½™çš„å†…å®¹, å¾…ç ”ç©¶.
+	 * @return å­—ä¸²æŒ‰ç…§åˆ¶å®šç¼–ç è§£ç åçš„16è¿›åˆ¶è¾“å‡º
 	 * @throws UnsupportedEncodingException
 	 */
 	public static String decode(String str, String charSet)
