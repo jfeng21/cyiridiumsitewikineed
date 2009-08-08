@@ -1,5 +1,5 @@
 String(bytes[])
-Ubuntu
+Ubuntu 9.04 / Windows XP
 UTF-8
 Output (253 lines)
 =================================
