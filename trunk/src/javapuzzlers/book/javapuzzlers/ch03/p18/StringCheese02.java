@@ -15,10 +15,11 @@ public class StringCheese02 {
 		}
 		
 //		String str = new String(bytes);
-		
+		System.out.println(java.nio.charset.Charset.defaultCharset().displayName());
 		String str = null;
 		try {
-			str = new String(bytes, "ISO-8859-1");
+//			str = new String(bytes, "ISO-8859-1");
+                        str = new String(bytes, "ISO-8859-2"); //get a wrong result
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
