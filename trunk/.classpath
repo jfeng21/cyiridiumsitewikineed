@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/javapuzzlers"/>
+	<classpathentry kind="src" path="src/charcodetest"/>
+	<classpathentry kind="src" path="src/charcode"/>
 	<classpathentry kind="src" path="src/helloworld"/>
+	<classpathentry kind="src" path="src/helloworldtest"/>
+	<classpathentry kind="src" path="src/hellospring"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/spring.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
