@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="helloworld">
+	<target name="compile">
+		<javac encoding="UTF-8" srcdir="." destdir=".">
+		</javac>
+	</target>
+
+	<target name="run" depends="compile">
+		<java classname="org.iridium.HelloWorld" classpath=".">
+		</java>
+	</target>
+</project>
