@@ -1,7 +1,4 @@
 #labels helloworld
-
-_For English_
-
 ==说明==
 这里将尝试一些 google code wiki 的语法。
 
