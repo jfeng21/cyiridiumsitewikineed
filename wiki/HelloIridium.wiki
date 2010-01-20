@@ -26,4 +26,4 @@
 
 === 链接 ===
  * 内链接： [HelloWorld]
- * 外链接： [Google http://www.google.com/ncr]
+ * 外链接： [http://www.google.com/ncr Google 123]
