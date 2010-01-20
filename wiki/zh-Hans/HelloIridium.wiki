@@ -28,3 +28,7 @@
 === 链接 ===
  * 内链接： [HelloWorld Hello, world!]
  * 外链接： [http://www.google.com/ncr Google 123] 链接在前，描诉的文字在后。
+ 
+<wiki:comment>
+测试评论内容，这是提交到中文页面的，不知道会不会显示到英文页面上。
+</wiki:comment>
