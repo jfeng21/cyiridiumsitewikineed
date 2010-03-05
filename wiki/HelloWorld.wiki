@@ -13,5 +13,9 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
+= Table =
+|| *column name* || *type*.OOoBase || *type*.MySql || *type*.Oracle || *length* || *nullable* || *default* || *PK/FK* || *memo* ||
+|| || || || || || || || || ||
+
 = Other =
   * [HelloIridium]
