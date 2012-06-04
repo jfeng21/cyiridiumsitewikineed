@@ -6,6 +6,9 @@ package org.iridium.algorithm.wuwenhu.ch4;
  * 左边抽屉：“铅笔盒不在这里”；
  * 中间抽屉：“铅笔盒不在这里”；
  * 右边抽屉：“铅笔盒在左边的抽屉”；
+ * 
+ * Ref: http://sites.google.com/site/iridiumsite/it/algorithms/whereispencilbox
+ * 
  */
 public class WhereIsPencilBox {
 
