@@ -19,9 +19,8 @@ public class BestCar2 {
 
 	public static void main(String[] args) {
 
-		int count = 0; // 所有人所对话的总数
 		for (int i = 1; i <= 4; i++) {
-			count = 0;
+			int count = 0; // 所有人所对话的总数
 			count += ((i == 2) ? 1 : 0);// 2号赛车是最好的
 			count += ((i == 4) ? 1 : 0);// 4号赛车是最好的
 			count += ((i != 3) ? 1 : 0);// 3号赛车不是最好的
