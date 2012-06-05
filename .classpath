@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/javapuzzlers"/>
+	<classpathentry kind="src" path="src/algorithm"/>
 	<classpathentry kind="src" path="src/charcodetest"/>
 	<classpathentry kind="src" path="src/charcode"/>
 	<classpathentry kind="src" path="src/helloworld"/>
