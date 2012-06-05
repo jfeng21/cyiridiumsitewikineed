@@ -31,31 +31,20 @@ public class WhoMarriesWho {
 
 	public static void main(String[] args) {
 		// A, B, C 编号 1, 2, 3
+		char[] brides = { 'A', 'B', 'C' };
 		// A-Z结婚表示为 z==1
 		for (int x = 1; x < 4; x++) {
 			for (int y = 1; y < 4; y++) {
 				for (int z = 1; z < 4; z++) {
 					if ((x != 1) && (x != 3) && (z != 3) && (x != y)
 							&& (y != z) && (z != x)) {
-						System.out.println("X will marry to " + getCode(x));
-						System.out.println("Y will marry to " + getCode(y));
-						System.out.println("Z will marry to " + getCode(z));
+						System.out.println("X will marry to " + brides[x-1]);
+						System.out.println("Y will marry to " + brides[y-1]);
+						System.out.println("Z will marry to " + brides[z-1]);
 					}
 				}
 			}
 		}
 	}
 
-	public static String getCode(int a) {
-		if (a == 1) {
-			return "A";
-		}
-		if (a == 2) {
-			return "B";
-		}
-		if (a == 3) {
-			return "C";
-		}
-		return null;
-	}
 }
