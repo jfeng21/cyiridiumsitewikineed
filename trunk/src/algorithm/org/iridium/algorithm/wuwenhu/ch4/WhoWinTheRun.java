@@ -8,6 +8,8 @@ package org.iridium.algorithm.wuwenhu.ch4;
  * 
  * 请根据他们的回答排出名次。
  * 
+ * Ref: http://sites.google.com/site/iridiumsite/it/algorithms/who-runs-fast
+ * 
  */
 public class WhoWinTheRun {
 
