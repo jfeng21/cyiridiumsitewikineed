@@ -15,7 +15,7 @@ public class DecoratedCar extends Car {
 		long start = System.currentTimeMillis();
 		super.stop();
 		long end = System.currentTimeMillis();
-		System.out.println("启动耗时：" + (end - start) + "毫秒");
+		System.out.println("刹车耗时：" + (end - start) + "毫秒");
 	}
 
 }
