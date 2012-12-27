@@ -3,11 +3,21 @@ package org.iridium.dp.decorator;
 public class Car {
 	// 启动
 	public void init() {
+		try {
+			// 随机暂停一段时间，模拟启动耗时
+			Thread.sleep((long) (Math.random() * 100));
+		} catch (InterruptedException ie) {
+		}
 		System.out.println("汽车启动了");
 	}
 
 	// 刹车
 	public void stop() {
+		try {
+			// 随机暂停一段时间，模拟刹车耗时
+			Thread.sleep((long) (Math.random() * 100));
+		} catch (InterruptedException ie) {
+		}
 		System.out.println("刹车");
 	}
 
